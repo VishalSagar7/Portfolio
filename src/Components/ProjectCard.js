@@ -1,17 +1,17 @@
-import React from 'react'
-import { projecData } from './utils/ProjectData';
-import Swiggyimg from '../imgs/Swiggy.png'
-import CoinGeeko from '../imgs/Coingeeko.png'
+// import React from 'react'
+// import { projecData } from './utils/ProjectData';
+// import Swiggyimg from '../imgs/Swiggy.png'
+// import CoinGeeko from '../imgs/Coingeeko.png'
 
 
-const ProjectCard = () => {
-  return (
-    <div className='flex flex-col gap-4 w-[100%] h-[100vh] '>
+// const ProjectCard = () => {
+//   return (
+//     <div className='flex flex-col gap-4 w-[100%] h-[100vh] '>
 
-      <h1>this is project Card</h1>
+//       <h1>this is project Card</h1>
 
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default ProjectCard;
+// export default ProjectCard;
