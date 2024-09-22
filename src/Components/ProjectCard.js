@@ -16,8 +16,8 @@ const ProjectCard = (props) => {
             </div>
 
             <div className=' text-black font-poppins'>
-                <a href={props.data.hostedlink} target='_blank' rel='noreferrer'><button className=' ml-[10px] bg-white'>Demo</button></a>
-                <a href={props.data.githublink} target='_blank' rel='noreferrer'><button className=' ml-[10px] bg-white'>github</button></a>
+                <a href={props.data.hostedlink} target='_blank' rel='noreferrer'><button className=' px-[7px] py-[2px] rounded-sm ml-[10px] bg-white'>Demo</button></a>
+                <a href={props.data.githublink} target='_blank' rel='noreferrer'><button className=' px-[7px] py-[2px] rounded-sm ml-[10px] bg-white'>github</button></a>
             </div>
 
             <div className='px-[10px]'>
