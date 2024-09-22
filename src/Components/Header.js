@@ -22,7 +22,6 @@ const Header = () => {
         <div id='drawer'>
             <AnchorTemporaryDrawer/>
         </div>
-        <h1 className='text-gray-400 hover:text-white lg:text-lg font-semibold cursor-pointer active:text-purple-400'>About me</h1>
         <h1 onClick={handleSkillsClick} 
         className='text-gray-400 hover:text-white lg:text-lg font-semibold cursor-pointer active:text-purple-400'>Skills</h1>
         <h1 className='text-gray-400 hover:text-white lg:text-lg font-semibold cursor-pointer'
