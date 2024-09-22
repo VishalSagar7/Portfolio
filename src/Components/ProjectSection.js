@@ -1,7 +1,5 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import swiggyimg from '../imgs/swiggy.png'
-import coingeeko from '../imgs/Coingeeko.png'
 import { projectsArray } from '../projects'
 
 console.log(projectsArray);
