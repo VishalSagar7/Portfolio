@@ -7,7 +7,7 @@ console.log(projectsArray);
 
 const ProjectSection = () => {
   return (
-    <div className='flex justify-around flex-wrap gap-[40px] p-[20px]'>
+    <div className='flex justify-around flex-wrap gap-4 lg:gap-[40px] lg:p-[20px]'>
 
       {
         projectsArray.map((project,id) => 

@@ -9,10 +9,10 @@ const ProjectCard = (props) => {
     console.log(props);
 
     return (
-        <div className=' flex flex-col gap-1 w-[48%] px-4 py-3 rounded-lg '>
+        <div className='bg-violet-950 md:bg-transparent flex flex-col gap-1 w-full lg:w-[48%] px-2 py-2 lg:px-4 lg:py-3 rounded-lg '>
 
             <h1 className='text-white font-poppins'>{ props.data.title }</h1>
-            <div className='w-full h-[250px] overflow-hidden'>
+            <div className='w-full h-[150px] lg:h-[250px] overflow-hidden'>
                 <img className=' h-[100%] w-[100%] rounded-md object-cover object-center transition duration-1000 hover:scale-[103%]' src={props.data.image} alt='projectcard img' />
             </div>
 
@@ -22,7 +22,7 @@ const ProjectCard = (props) => {
             </div>
 
             <div className='px-[10px]'>
-                <p className='text-white text-sm font-poppins'>{props.data.description}</p>
+                <p className='text-white text-xs lg:text-sm font-poppins'>{props.data.description}</p>
             </div>
 
         </div>

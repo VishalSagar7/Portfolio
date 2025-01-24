@@ -3,7 +3,7 @@ import { skills } from './utils/Skills';
 
 const SkilsCard = () => {
   return (
-    <div className='flex flex-wrap gap-x-[80px] gap-y-[40px] justify-start'>
+    <div className='flex flex-wrap gap-x-[80px] gap-y-[40px] justify-center mt-8 '>
       {
         skills.map((card)=>{
           return (
