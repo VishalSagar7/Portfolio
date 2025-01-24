@@ -29,7 +29,10 @@ const Body = () => {
         <div id='project-section' className='lg:mx-auto py-[10px] h-auto w-[85vw] mx-auto'>
 
           <h1 className='text-gray-200 text-[35px] mb-[25px] '>Projects</h1>
-          <ProjectSection/>
+          <div>
+            <ProjectSection />
+          </div>
+          
 
         </div>
         <BacktoTop />
