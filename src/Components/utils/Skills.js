@@ -15,26 +15,47 @@ export const skills = [
     },
     {
         img : 'https://www.svgrepo.com/show/374118/tailwind.svg',
-        name : "Tailwind"
+        name: "Tailwind",
+        desc: "Styling"
     },
     {
         img : 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-        name : 'Reactjs'
+        name: 'Reactjs',
+        desc: 'Library'
     },
     {
         img : 'https://www.svgrepo.com/show/354048/material-ui.svg',
-        name : "Material UI"
+        name: "Material UI",
+        desc: "Components"
     },
     {
         img : "https://www.svgrepo.com/show/303557/redux-logo.svg",
-        name : "Redux-toolkit"
+        name: "Redux-toolkit",
+        desc: "State management"
+    },
+    {
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpHj4UwTW4ANSlNjzQOiiOqfDa6kal9RpF0A&s",
+        name: "Zustand",
+        desc: "State management"
     },
     {
         img : 'https://www.svgrepo.com/show/331488/mongodb.svg',
-        name : 'MongoDB'
+        name: 'MongoDB',
+        desc: "Database"
     },
     {
         img : 'https://www.svgrepo.com/show/354099/mysql.svg',
-        name : 'MySQL'
+        name: 'MySQL',
+        desc : "Database"
+    },
+    {
+        img: 'https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png',
+        name: "Node.js",
+        desc: "Runtime env."
+    },
+    {
+        img: "https://img.icons8.com/?size=512&id=rHpveptSuwDz&format=png",
+        name: "Json web token",
+        desc : "Authentication"
     }
 ]
